@@ -1,0 +1,124 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+         initial-scale=1.0">
+        <title>Imágenes, contenido multimedia y tablas en HTML</title>
+        <a href="Imagenes y contenido multimedia">inicio</a>
+    </head>
+    <body>
+        <h1>Imágenes y contenido multimedia en HTML</h1>
+
+        <div>
+            <h2>Imagenes Externas</h2>
+            <p>Esta imagen esta en la web</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjOoJEI_fenZeBKiP_UMg6aqo09m4jMPK353LMdIF0rg&s=10.jpg" alt="Imagen de catalejo">
+        </div>
+
+        <div>
+            <h2>Imagenes Internas</h2>
+            <p>Esta imagen esta en la unidad</p>
+            <img src="imagenes/images.jpg" alt="Imagen de enchiladas verdes">
+        </div>
+
+        <div>
+            <h2>Etiqueta de video</h2>
+            <video src="media/placamadre.mp4" controls loop></video>
+        </div>
+
+        <div>
+            <h2>Etiqueta de audio</h2>
+            <audio src="media/placamadre.mp3" controls></audio>
+        </div>
+  
+       <div>
+            <h2>Tablas HTML</h2>
+            <p>Elemento que nos permite distribuir información 
+                en un formato especifico.
+            </p>
+            <table border="1px">
+                <tr>
+                    <th>País</th>
+                    <th>Capital</th>
+                    <th>Idioma</th>
+                    <th>Continente</th>
+                </tr>
+                <tr>
+                    <td>México</td>
+                    <td>CDMX</td>
+                    <td>Español</td>
+                    <td>America</td>
+                </tr>
+                <tr>
+                    <td>Francia</td>
+                    <td>París</td>
+                    <td>Frances</td>
+                    <td>Europa</td>
+                </tr>
+                <tr>
+                    <td>Canadá</td>
+                    <td>Otawwa</td>
+                    <td>Inglés</td>
+                    <td>America</td>
+                </tr>
+                <tr>
+                    <td>Turquía</td>
+                    <td>Ankara</td>
+                    <td>Turco</td>
+                    <td>Europa</td>
+                </tr>
+            </table>
+            <hr>
+        <table border="1px">
+            <caption>Horario</caption>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>8:00-9:00</td>
+                <td rowspan="2" style="background-color: red;">Matematicas</td>
+                <td style="background-color: tomato;">Lengua</td>
+                <td>Musica</td>
+                <td></td>
+                <td rowspan="2" style="background-color: red;">Matematicas</td>
+            </tr>
+            <tr>
+                <td>9:00-10:00</td>
+                <td>Ingles</td>
+                <td>Ingles</td>
+                <td style="background-color: pink;">E. Fisica</td>
+            </tr>
+            <tr>
+                <td>10:00-10:30</td>
+                <td colspan="5" style="background-color: green;">Recreo</td>
+            </tr>
+            <tr>
+                <td>10:30-11:30</td>
+                <td style="background-color: pink;">E. Fisica</td>
+                <td>Valenciano</td>
+                <td rowspan="2" style="background-color: tomato;">Lengua</td>
+                <td style="background-color: yellow;">Informatica</td>
+                <td>Ingles</td>
+            </tr>
+            <td>12:30-13:30</td>
+                <td>Musica</td>
+                <td style="background-color: pink;">E. Fisica</td>
+                <td rowspan="2" style="background-color: red;">Matematicas</td>
+                <td style="background-color: yellow;">Informatica</td>
+            </tr>
+            <td>13:30-14:30</td>
+                <td>    </td>
+                <td style="background-color: yellow;">Informatica</td>
+                <td>    </td>
+
+                <td>    </td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>
