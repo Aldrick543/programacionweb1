@@ -1,0 +1,63 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#encabezado{
+    background-color: black;
+    color: white;
+    /*El  pading: espacio entre el contenido del elemento y su borde
+    se aplican los valores en sentido horario: top, right, bottom y left
+    1valor: t,r,b,l 2valores: tb, rl 3valores:t, rl, b */
+    padding: 15px 5px 50px 5px;
+
+    border: 2px, solid, red;
+   
+
+/*El margen espacio que hay entre los espacios de un elemento y los 
+demás elementos html*/ 
+
+margin:15px;
+/*Es el contorno visual alrededor de nuestro elmento HTML
+(dentro del cual podemos encontrar el contenido del elemento y su relleno)
+valores(solid, dotted, dashed, double, groove, ridge, inset, outside, hidden
+y none)*/
+border: 10px ridge rgb(0,195,255);
+border-top-style: double;
+border-left-color: red;
+border-right-color: red;
+border-bottom-width: 2px;
+border-radius: 10%;
+ /*
+    border-left: solid;
+    border-width: 2px;
+    border-color: red;*/
+    /*Se puede usar para crear efectos de sombra al borde de un elenmento, se
+    deben especificar los valores: desplazamiento horizontal, desplazamineto 
+    vertical, radio de desnfoque, radio de propagación y el color*/
+    box-shadow: 5px 5px 10px 10px red;
+
+}
+
+.introduccion{
+    border: 2px solid gold;
+    background-color: black;
+    padding: 5px;
+    color: blueviolet;
+}
+
+.introduccion p{
+    width: 300px;
+    height: 150px;
+    border: 2px dotted gold;
+}
+
+.introduccion span{
+    width: 300px;
+    height: 150px;
+    border: 2px dotted gold;
+    padding:10px;
+    margin: 50%;
+}
+
+
+
