@@ -1,0 +1,39 @@
+
+.fondo-noe {
+
+    /* Background-image: Permite agregar imágenes como fondo de un elemento o contenedor y también se pueden agregar gradientes */
+    background-image: linear-gradient(to top, rgba(238, 130, 238, 0.5), rgba(128, 128, 128, 0.5)), url(../imagenes/noe.jpeg);
+
+    /* Background-size (cover, contain, width(px)-height(px))
+       Especifica el tamaño de la imagen de fondo */
+    background-size: cover;
+
+    /* Background-repeat (repeat, no-repeat, repeat-x, repeat-y)
+       Aplica cuando la imagen es más pequeña que su contenedor */
+    background-repeat: no-repeat;
+
+    /* Background-position (top, bottom, center, right, left)
+       Sirve para establecer la posición inicial de una imagen de fondo en su contenedor */
+    background-position: center;
+
+    /* Background-attachment (scroll y fixed)
+       Se utiliza para que la imagen quede fija al desplazarse por la página */
+    background-attachment: fixed;
+
+    /* Propiedades generales del contenedor */
+    width: 1920px;
+    height: 1080px;
+
+    border: 2px solid blue;
+}
+
+.fondo-cristo {
+
+    /* Background: (image) (position) / (size) (repeat) (attachment) (color) */
+    background: url(../imagenes/pasioncristo.jpeg) center / contain repeat scroll rgba(255, 255, 255, 0.226);
+
+    width: 300px;
+    height: 1000px;
+
+    border: 2px solid red;
+}
